@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Lucas A. Meyer - Blog</title>
+    <link>/post/</link>
+    <description>Recent content in Posts on Lucas A. Meyer - Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; Lucas A. Meyer 2016-present</copyright>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 -0500</lastBuildDate>
+    
+	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Lenovo P51 - the Data Scientist laptop</title>
+      <link>/post/lenovo-p51-the-data-scientist-laptop/</link>
+      <pubDate>Fri, 17 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/post/lenovo-p51-the-data-scientist-laptop/</guid>
+      <description>Recently, as part of a computer refresh, I have moved from a Microsoft Surface Pro 3 to a Lenovo P51. As it often happens with work, the Microsoft Surface Pro 3 was the right computer for me at the time I got it, but as time went by my position changed substantially, and it ceased to be appropriate for me.
+When I got the Surface, the core of my work consisted in traveling, having conference calls and light emailing and spreadsheet work.</description>
+    </item>
+    
+    <item>
+      <title>The three types of gifts in Buddhism</title>
+      <link>/post/the-three-types-of-gifts-in-buddhism/</link>
+      <pubDate>Mon, 25 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/post/the-three-types-of-gifts-in-buddhism/</guid>
+      <description>From &amp;ldquo;For a future to be possible&amp;rdquo;, by Thich Nhat Hanh:
+ In Buddhism, there are three kinds of gifts. The first is the gift of material resources. The second is to help people rely on themselves, to offer them the technology and know-how to stand on their own feet. (&amp;hellip;)
+The third is the gift of non-fear. We are afraid of many things. We feel insecure, afraid of being alone, afraid of sickness and dying.</description>
+    </item>
+    
+    <item>
+      <title>Hurricane Irma</title>
+      <link>/post/hurricane-irma/</link>
+      <pubDate>Mon, 11 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/post/hurricane-irma/</guid>
+      <description>Florida has nice weather most of the time, but also has extreme weather occasionally.
+Hurricane Irma happened when I was out on a business trip, and my family was in Parkland, FL. Forecasts went from &amp;ldquo;maybe it will hit you&amp;rdquo; to &amp;ldquo;if you stay you&amp;rsquo;ll surely die&amp;rdquo; to &amp;ldquo;I think it&amp;rsquo;s not going to hit you anymore&amp;rdquo; to &amp;ldquo;Phew, it will miss&amp;rdquo; in four days.
+We did a lot of preparation using conditional probabilities.</description>
+    </item>
+    
+  </channel>
+</rss>

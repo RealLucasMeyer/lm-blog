@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lucas A. Meyer - Blog on Lucas A. Meyer - Blog</title>
+    <link>/</link>
+    <description>Recent content in Lucas A. Meyer - Blog on Lucas A. Meyer - Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; Lucas A. Meyer 2016-present</copyright>
+    <lastBuildDate>Sun, 15 Oct 2017 00:00:00 -0400</lastBuildDate>
+    <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Lenovo P51 - the Data Scientist laptop</title>
+      <link>/post/lenovo-p51-the-data-scientist-laptop/</link>
+      <pubDate>Fri, 17 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/post/lenovo-p51-the-data-scientist-laptop/</guid>
+      <description>&lt;p&gt;Recently, as part of a computer refresh, I have moved from a Microsoft Surface Pro 3 to a Lenovo P51.
+As it often happens with work, the Microsoft Surface Pro 3 was the right computer for me at the time I
+got it, but as time went by my position changed substantially, and it ceased to be appropriate for me.&lt;/p&gt;
+
+&lt;p&gt;When I got the Surface, the core of my work consisted in traveling, having conference calls and
+light emailing and spreadsheet work. As time went by, my work went back to creating analytics,
+creating presentations about analytics, and traveling. There is where the screen of the Surface
+becomes a liability at 12 inches. I wanted something bigger.&lt;/p&gt;
+
+&lt;p&gt;And boy, is the P51 bigger. It has a 15-inch screen and a power brick that alone is twice as heavy
+as the Surface Pro. It&amp;rsquo;s big enough to have a keyboard that comes with a numeric keypad. Since I still
+have to travel a lot, I chose the P51 over the beefier 17-inch P71. The P71 won&amp;rsquo;t even fit in my
+somewhat large Osprey backpack. The P51 barely fits.&lt;/p&gt;
+
+&lt;p&gt;Due to some standardization constraints, my P51 is the 1920x1080 version with touch screen. It has
+32 Gb of RAM and a 500 Gb SSD. It has the i7 7820HQ running at 2.9 GHz and a Quadro M2200 GPU. If I
+had the option, I&amp;rsquo;d choose the 4K screen and the Xeon processor, but I did not have that option.&lt;/p&gt;
+
+&lt;p&gt;The battery life is surprisingly good. For the kind of things that I do in planes (writing blog posts,
+editing presentations, light programming), the battery seems to last well over 8h without Wi-Fi and about 7h
+with Wi-Fi. I have yet to run out of battery in a flight. I have read that the earlier version
+of the P51, the P50, would trip the circuit breaker of a plane if you tried to plug it in. I have not
+attempted to plug in the P51 yet.&lt;/p&gt;
+
+&lt;p&gt;The P51 is usable in the Premium Economy seats and, of course, in business and first class seats,
+but I have the impression that it would not fit well in the economy class of carriers that have
+a very small distance between seats (like American Airlines domestic flights), especially if the
+person in front of you reclines their seat. It works well in exit seats.&lt;/p&gt;
+
+&lt;p&gt;One gripe I had about the Surface Pro 3 was that I always had to travel with a USB hub, a mouse, and
+a couple mini-DisplayPort adapters. The P51 comes with a mechanical keyboard, the beloved TrackPoint,
+a good TouchPad, 4 USB ports, a Thunderbolt 3 port, an Ethernet port, an HDMI port, and, to my surprise,
+a mini-DisplayPort, so I get to keep all the adapters I had for the Surface.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;ve also considered the P51-S. The slimmer version trades off some power (it goes from quad-core to
+dual-core) for a thinner, lighter frame. I think the P51-S would also have been a solid choice, but I
+think it would force me to do most of my work from a workstation and/or a server that I&amp;rsquo;d need to
+remote into frequently, adding to the stress of versioning and synchronizing. Somewhat
+counter-intuitively, I chose the heavier computer &lt;em&gt;because&lt;/em&gt; I travel a lot, as it has enough power
+for me to do the vast majority of my work on it and use a server or workstation just for the real
+hardcore stuff.&lt;/p&gt;
+
+&lt;p&gt;In summary, the Lenovo P51 is a great computer for the traveling data scientist. It&amp;rsquo;s powerful enough
+to be used as your primary machine. For me, it&amp;rsquo;s near the top limit of a computer that is comfortable
+to travel with, but still &lt;em&gt;within&lt;/em&gt; that limit. I got used to it in no time and completely gave up my
+desktop workstation.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The three types of gifts in Buddhism</title>
+      <link>/post/the-three-types-of-gifts-in-buddhism/</link>
+      <pubDate>Mon, 25 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/post/the-three-types-of-gifts-in-buddhism/</guid>
+      <description>&lt;p&gt;From &amp;ldquo;For a future to be possible&amp;rdquo;, by Thich Nhat Hanh:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;In Buddhism, there are three kinds of gifts. The first is the gift of material resources. The second is to help people rely on themselves, to offer them the technology and know-how to stand on their own feet. (&amp;hellip;)&lt;/p&gt;
+
+&lt;p&gt;The third is the gift of non-fear. We are afraid of many things. We feel insecure, afraid of being alone, afraid of sickness and dying. To help people not be destroyed by their fears, we practice the third kind of gift-giving.&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Hurricane Irma</title>
+      <link>/post/hurricane-irma/</link>
+      <pubDate>Mon, 11 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/post/hurricane-irma/</guid>
+      <description>&lt;p&gt;Florida has nice weather most of the time, but also has extreme weather occasionally.&lt;/p&gt;
+
+&lt;p&gt;Hurricane Irma happened when I was out on a business trip, and my family was in Parkland, FL.
+Forecasts went from &amp;ldquo;maybe it will hit you&amp;rdquo; to &amp;ldquo;if you stay you&amp;rsquo;ll surely die&amp;rdquo;
+to &amp;ldquo;I think it&amp;rsquo;s not going to hit you anymore&amp;rdquo; to &amp;ldquo;Phew, it will miss&amp;rdquo; in four days.&lt;/p&gt;
+
+&lt;p&gt;We did a lot of preparation using conditional probabilities. In our assessment,
+it would be very unlikely for the hurricane to hit both the East and West coast
+simultaneously. So we decided to move the family from Parkland, FL to Tampa
+(back then, the hurricane was forecasted to hit the East coast), but to book hotels
+in both Pensacola (Florida panhandle) and Jacksonville, FL while we waited for new
+forecasts.&lt;/p&gt;
+
+&lt;p&gt;As days went by, the forecasts moved further and further West. On Saturday 2 AM, the
+forecast was that the hurricane would hit Tampa as a Category 4, so staying there was
+too risky. And then we had to decide between moving to the Florida panhandle, moving to Jacksonville
+and incredibly, going back to Parkland, near Fort Lauderdale.&lt;/p&gt;
+
+&lt;p&gt;The uncertainty seemed higher for places that were north of Tampa: it was hard to tell
+whether the hurricane would turn either way in 3 days. On the other hand, the forecasts are better
+in close proximity to the hurricane, and it seemed pretty certain that the hurricane would miss
+the Parkland/Boca Raton area. So we made the somewhat gutsy call that my wife would come back
+to Parkland with the kids.&lt;/p&gt;
+
+&lt;p&gt;There&amp;rsquo;s surely an element of luck to all of this, but the outcome was positive. We had very
+minor damage in our house: a couple plants and a downspout. I think the total amount of
+damage is going to be less than $100. It&amp;rsquo;s hard to be precise because there may be damage
+that is hard to see, like on the roof. We did not lose power, internet or even satellite TV.
+The hardest part was the stress.&lt;/p&gt;
+
+&lt;p&gt;On Monday morning the winds were back to normal. There&amp;rsquo;s still a lot of debris around the county.
+I&amp;rsquo;m supposed to fly back home tomorrow, if the airport opens, and hopefully I&amp;rsquo;ll be
+able to get a ride home. This was more of a suspense than a horror movie. Many people were
+not as lucky as we were and we&amp;rsquo;ll now see how we can help them.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Example Talk</title>
+      <link>/talk/example-talk/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 -0500</pubDate>
+      
+      <guid>/talk/example-talk/</guid>
+      <description>&lt;p&gt;Embed your slides or video here using &lt;a href=&#34;https://sourcethemes.com/academic/post/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;shortcodes&lt;/a&gt;. Further details can easily be added using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Deep Learning</title>
+      <link>/project/deep-learning/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/project/deep-learning/</guid>
+      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
+
+&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
+
+&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
+
+&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
+
+&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>External Project</title>
+      <link>/project/example-external-project/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/project/example-external-project/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Person Re-Identification System For Mobile Devices</title>
+      <link>/publication/person-re-identification/</link>
+      <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/person-re-identification/</guid>
+      <description>&lt;p&gt;More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Mobile visual clothing search</title>
+      <link>/publication/clothing-search/</link>
+      <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/clothing-search/</guid>
+      <description>&lt;p&gt;More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
