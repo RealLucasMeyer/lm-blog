@@ -1,5 +1,5 @@
 ---
-title: Lenovo P51 - the Data Scientist laptop
+title: Lenovo P51 - the Data Scientist's laptop
 author: Lucas A. Meyer
 date: '2017-11-17'
 slug: lenovo-p51-the-data-scientist-laptop
