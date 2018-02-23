@@ -14,7 +14,7 @@ header:
 ---
 
 Recently, as part of a computer refresh, I have moved from a Microsoft Surface Pro 3 to a Lenovo P51. 
-As it often happens with work, the Microsoft Surface Pro 3 was the right computer for me at the time I 
+The Microsoft Surface Pro 3 was the right computer for me at the time I 
 got it, but as time went by my position changed substantially, and it ceased to be appropriate for me.
 
 When I got the Surface, the core of my work consisted in traveling, having conference calls and
