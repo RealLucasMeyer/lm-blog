@@ -13,4 +13,4 @@ header:
   image: ''
 ---
 
-<iframe width="1200" height="800" src='https://webchat.botframework.com/embed/EscolaBot?s=1pRXn5BOACE.cwA.kHk.6SNtrEonwsnxGalreCaY27GlBIEdCENIAMpXQHTZUrc'></iframe>
+<iframe width="640px" height="480px" src='https://webchat.botframework.com/embed/EscolaBot?s=1pRXn5BOACE.cwA.kHk.6SNtrEonwsnxGalreCaY27GlBIEdCENIAMpXQHTZUrc'></iframe>x
