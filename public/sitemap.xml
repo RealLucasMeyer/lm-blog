@@ -95,6 +95,15 @@
     
     <url>
     
+      <loc>/post/my-complicated-relationship-with-the-second-amendment/</loc>
+      <lastmod>2016-02-23T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/publication/person-re-identification/</loc>
       <lastmod>2015-09-01T00:00:00+00:00</lastmod>
     </url>
@@ -142,7 +151,7 @@
     
     <url>
     
-      <loc>/categories/data-science/</loc>
+      <loc>/tags/data-science/</loc>
       <lastmod>2017-11-17T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -152,7 +161,7 @@
     
     <url>
     
-      <loc>/tags/data-science/</loc>
+      <loc>/categories/data-science/</loc>
       <lastmod>2017-11-17T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -182,8 +191,18 @@
     
     <url>
     
-      <loc>/categories/florida/</loc>
-      <lastmod>2017-09-11T00:00:00+00:00</lastmod>
+      <loc>/tags/first-amendment/</loc>
+      <lastmod>2016-02-23T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/categories/first-amendment/</loc>
+      <lastmod>2016-02-23T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -202,8 +221,38 @@
     
     <url>
     
+      <loc>/categories/florida/</loc>
+      <lastmod>2017-09-11T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/tags/hardware/</loc>
       <lastmod>2017-11-17T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/law/</loc>
+      <lastmod>2016-02-23T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/categories/law/</loc>
+      <lastmod>2016-02-23T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -242,7 +291,7 @@
     
     <url>
     
-      <loc>/categories/religion/</loc>
+      <loc>/tags/religion/</loc>
       <lastmod>2017-09-25T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -252,7 +301,7 @@
     
     <url>
     
-      <loc>/tags/religion/</loc>
+      <loc>/categories/religion/</loc>
       <lastmod>2017-09-25T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
