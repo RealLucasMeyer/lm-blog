@@ -7,10 +7,32 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; Lucas A. Meyer 2016-present</copyright>
-    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 -0500</lastBuildDate>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 -0800</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Installing Python packages in Azure Functions</title>
+      <link>/post/installing-python-packages-in-azure-functions/</link>
+      <pubDate>Tue, 29 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/installing-python-packages-in-azure-functions/</guid>
+      <description>A few tricks when using Python in Azure Functions Installing a more recent version of Python for your Azure Functions The Python version in Azure Functions is pretty old. As of this writing (May 2018), it&amp;rsquo;s still on version 2.7. Let&amp;rsquo;s install version 3.5.
+ Open the Azure Portal
+ Select your function App (usually under App Services)
+ Select &amp;ldquo;Platform Features&amp;rdquo; on top  Select &amp;ldquo;Advanced Tools (Kudu)&amp;rdquo;</description>
+    </item>
+    
+    <item>
+      <title>A reflection on FY18 and FY19 plans</title>
+      <link>/post/a-reflection-on-fy18-and-fy19-plans/</link>
+      <pubDate>Mon, 28 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/a-reflection-on-fy18-and-fy19-plans/</guid>
+      <description>Reflecting on FY18 and planning for FY19 I have worked at Microsoft for long enough that it&amp;rsquo;s easier for me to make plans in tandem with the Microsoft fiscal calendar. It runs from July to June, so we&amp;rsquo;re very close to the end of FY18 and starting FY19.
+FY18 Recap Looking back, FY18 was a year of recovery, as was FY17. We&amp;rsquo;ve had our share of health-related scares at my home, and we&amp;rsquo;re still working through some of those.</description>
+    </item>
     
     <item>
       <title>Lenovo P51 - the Data Scientist&#39;s laptop</title>
