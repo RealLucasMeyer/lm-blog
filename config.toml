@@ -51,7 +51,7 @@ defaultContentLanguageInSubdir = false
 
   # Your details.
   name = "Lucas A. Meyer"
-  role = "Data Scientist | Busy Dad"
+  role = "Data Scientist | Busy Dad | Immigrant"
 
   # Organizations/Affiliations.
   #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
@@ -245,7 +245,7 @@ defaultContentLanguageInSubdir = false
 [[menu.main]]
   name = "Home"
   url = "#about"
-  weight = 1
+  weight = 2
 
 # [[menu.main]]
 # name = "Publications"
@@ -255,7 +255,7 @@ defaultContentLanguageInSubdir = false
 [[menu.main]]
   name = "Posts"
   url = "#posts"
-  weight = 2
+  weight = 1
 
 # [[menu.main]]
 #  name = "Projects"
