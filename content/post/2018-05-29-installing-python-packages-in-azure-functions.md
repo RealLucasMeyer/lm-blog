@@ -14,3 +14,18 @@ header:
   image: ''
 ---
 
+# A few tricks when using Python in Azure Functions
+
+## Installing a more recent version of Python for your Azure Functions
+
+The Python version in Azure Functions is pretty old. As of this writing (May 2018), it's still on version 2.7. Let's install version 3.5.
+
+1. Open the [Azure Portal](https://portal.azure.com)
+
+2. Select your function App (usually under App Services)
+
+3. Select "Platform Features" on top
+
+![Platform Features](/img/python-platform.png)
+
+
