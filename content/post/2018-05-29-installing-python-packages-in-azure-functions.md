@@ -28,4 +28,12 @@ The Python version in Azure Functions is pretty old. As of this writing (May 201
 
 ![Platform Features](/img/python-platform.png)
 
+4. Select "Advanced Tools (Kudu)"
+
+![Select Kudu](/img/python-kudu1.png)
+
+5. Select "CMD" on the "Debug Console"
+
+![Debug Console -> CMD](/img/python-kudu.png)
+
 
