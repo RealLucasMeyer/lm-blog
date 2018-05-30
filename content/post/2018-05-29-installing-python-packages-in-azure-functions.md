@@ -21,6 +21,8 @@ If you don't know anything about Azure Functions, [this](https://docs.microsoft.
 
 Below I'll describe some tricks I've learned to use Azure Functions with Python, which is currently (May 2018) under "experimental" support. Azure Functions, being serverless, are inexpensive but still very useful. I have used Azure Functions to create APIs for my data science projects (e.g., trigger a retraining, evaluate a submission online) and to create a Twitter Bot that posts a few random pictures every day.
 
+
+
 #### Installing a more recent version of Python for your Azure Functions
 
 The Python version in Azure Functions is pretty old. As of this writing (May 2018), it's still on version 2.7. Let's install version 3.5.
