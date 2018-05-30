@@ -13,15 +13,14 @@
     
     
     <item>
-      <title>Installing Python packages in Azure Functions</title>
+      <title>Tricks using Python in Azure Functions</title>
       <link>/post/installing-python-packages-in-azure-functions/</link>
       <pubDate>Tue, 29 May 2018 00:00:00 +0000</pubDate>
       
       <guid>/post/installing-python-packages-in-azure-functions/</guid>
-      <description>A few tricks when using Python in Azure Functions Installing a more recent version of Python for your Azure Functions The Python version in Azure Functions is pretty old. As of this writing (May 2018), it&amp;rsquo;s still on version 2.7. Let&amp;rsquo;s install version 3.5.
- Open the Azure Portal
- Select your function App (usually under App Services)
- Select &amp;ldquo;Platform Features&amp;rdquo; on top  Select &amp;ldquo;Advanced Tools (Kudu)&amp;rdquo;</description>
+      <description>If you don&amp;rsquo;t know anything about Azure Functions, this is a good place to start.
+ Azure Functions is a serverless compute service that enables you to run code on-demand without having to explicitly provision or manage infrastructure. Use Azure Functions to run a script or piece of code in response to a variety of events. Learn how to use Azure Functions with our quickstarts, tutorials, and samples.
+ Below I&amp;rsquo;ll describe some tricks I&amp;rsquo;ve learned to use Azure Functions with Python, which is currently (May 2018) under &amp;ldquo;experimental&amp;rdquo; support.</description>
     </item>
     
     <item>

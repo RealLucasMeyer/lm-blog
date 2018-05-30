@@ -11,14 +11,20 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Installing Python packages in Azure Functions</title>
+      <title>Tricks using Python in Azure Functions</title>
       <link>/post/installing-python-packages-in-azure-functions/</link>
       <pubDate>Tue, 29 May 2018 00:00:00 +0000</pubDate>
       
       <guid>/post/installing-python-packages-in-azure-functions/</guid>
       <description>
 
-&lt;h3 id=&#34;a-few-tricks-when-using-python-in-azure-functions&#34;&gt;A few tricks when using Python in Azure Functions&lt;/h3&gt;
+&lt;p&gt;If you don&amp;rsquo;t know anything about Azure Functions, &lt;a href=&#34;https://docs.microsoft.com/en-us/azure/azure-functions/&#34; target=&#34;_blank&#34;&gt;this&lt;/a&gt; is a good place to start.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Azure Functions is a serverless compute service that enables you to run code on-demand without having to explicitly provision or manage infrastructure. Use Azure Functions to run a script or piece of code in response to a variety of events. Learn how to use Azure Functions with our quickstarts, tutorials, and samples.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Below I&amp;rsquo;ll describe some tricks I&amp;rsquo;ve learned to use Azure Functions with Python, which is currently (May 2018) under &amp;ldquo;experimental&amp;rdquo; support. Azure Functions, being serverless, are inexpensive but still very useful. I have used Azure Functions to create APIs for my data science projects (e.g., trigger a retraining, evaluate a submission online) and to create a Twitter Bot that posts a few random pictures every day.&lt;/p&gt;
 
 &lt;h4 id=&#34;installing-a-more-recent-version-of-python-for-your-azure-functions&#34;&gt;Installing a more recent version of Python for your Azure Functions&lt;/h4&gt;
 
@@ -44,14 +50,81 @@
 
 &lt;li&gt;&lt;p&gt;We first download and install Python using Nuget. To see all possible versions, please check the following website: &lt;a href=&#34;https://www.siteextensions.net/profiles/steve.dower&#34; target=&#34;_blank&#34;&gt;https://www.siteextensions.net/profiles/steve.dower&lt;/a&gt;&lt;/p&gt;
 
-&lt;pre&gt;&lt;code class=&#34;language-DOS&#34;&gt;nuget.exe install -Source https://www.siteextensions.net/api/v2/ -OutputDirectory D:\home\site\tools python352x64 
-&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;nuget.exe install -Source https://www.siteextensions.net/api/v2/ -OutputDirectory D:\home\site\tools python352x64 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;For me, this step took approximately 4 minutes.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Successfully installed &amp;lsquo;python352x64 3.5.2.6&amp;rsquo; to D:\home\site\tools&lt;/p&gt;
+
+&lt;p&gt;Executing nuget actions took 3.99 min&lt;/p&gt;
+&lt;/blockquote&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;We now move Python to its proper place:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code class=&#34;language-DOS&#34;&gt;mv /d/home/site/tools/python352x64.3.5.2.6/content/python35/* /d/home/site/tools/
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;mv /d/home/site/tools/python352x64.3.5.2.6/content/python35/* /d/home/site/tools/
 &lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
 &lt;/ol&gt;
+
+&lt;p&gt;From now on, whatever function we write using Python in this app will use the new version. To verify, let&amp;rsquo;s create a function using Python and check its version. Remember that in order to create Azure Functions using Python, we first have to enable &amp;ldquo;Experimental Language Support&amp;rdquo;). For this test, I&amp;rsquo;ll create a function with an HTTP trigger, which I&amp;rsquo;ll later change to a Timer trigger.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/python-new-function.png&#34; alt=&#34;create new function&#34; /&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;import os
+import platform
+
+message = &amp;quot;Using Python version {0}&amp;quot;.format(platform.python_version())
+print(message)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;2018-05-30T01:34:29.954 [Info] Function started (Id=c7edfee9-b370-4dfb-bf89-2912cd09a109)&lt;/p&gt;
+
+&lt;p&gt;2018-05-30T01:34:35.923 [Info] Using Python version 3.5.2&lt;/p&gt;
+
+&lt;p&gt;2018-05-30T01:34:35.955 [Info] Function completed (Success, Id=c7edfee9-b370-4dfb-bf89-2912cd09a109, Duration=6011ms)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&#34;installing-packages&#34;&gt;Installing packages&lt;/h4&gt;
+
+&lt;p&gt;Now that we have a recent version of Python, we can install whatever packages we want. For example, we can install pyodbc and python-twitter.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;D:\home\site\tools\python.exe -m pip install pyodbc
+D:\home\site\tools\python.exe -m pip install python-twitter
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;With these packages installed, for example, I can connect to a SQL (or SQL Azure) database and write a Python script that tweets parts of its content.&lt;/p&gt;
+
+&lt;h4 id=&#34;converting-an-http-trigger-to-a-time-trigger&#34;&gt;Converting an HTTP Trigger to a time trigger&lt;/h4&gt;
+
+&lt;p&gt;By default, Python functions don&amp;rsquo;t have a timer trigger. But that&amp;rsquo;s no big deal. Start with an HTTP trigger (see picture above), and then go to &amp;ldquo;Integrate&amp;rdquo; and delete the trigger.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/python-delete-trigger.png&#34; alt=&#34;Delete trigger&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Once you delete the trigger, you&amp;rsquo;ll be able to add a new trigger, which can be a Timer trigger.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/python-new-trigger.png&#34; alt=&#34;Timer trigger&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;You can configure the trigger using the usual &lt;code&gt;cron&lt;/code&gt; syntax:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/python-timer-trigger.png&#34; alt=&#34;Configuring timer trigger&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;In the example above, I&amp;rsquo;m triggering the function every 15 seconds. I did not change the code from before, so this will result simply in Python printing its version to the log every 15 seconds.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/python-timer-trigger-results.png&#34; alt=&#34;Configuring timer trigger&#34; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;a-few-ideas-on-how-to-use-this&#34;&gt;A few ideas on how to use this&lt;/h4&gt;
+
+&lt;p&gt;If you know Python and have an Azure subscription, here&amp;rsquo;s a few things that you do for free or nearly for free with this. You can:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;trigger a Python function that wakes up every day and performs some database maintentance (e.g., triggers a stored procedure that deletes old records)&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;send a message in Twitter every day, for example &amp;ldquo;Since yesterday, we&amp;rsquo;ve acquired X followers&amp;rdquo;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Read new data from a database, run a model that creates a forecast and save it back to the database every 2 hours&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     
