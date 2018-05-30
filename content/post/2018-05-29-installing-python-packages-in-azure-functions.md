@@ -36,4 +36,16 @@ The Python version in Azure Functions is pretty old. As of this writing (May 201
 
 ![Debug Console -> CMD](/img/python-kudu.png)
 
+Now the fun part starts. Thanks to [Our Way of Lyf](https://ourwayoflyf.com/running-python-code-on-azure-functions-app/) for providing instructions.
 
+6. We first download and install Python using Nuget. To see all possible versions, please check the following website: [https://www.siteextensions.net/profiles/steve.dower](https://www.siteextensions.net/profiles/steve.dower)
+
+```DOS
+nuget.exe install -Source https://www.siteextensions.net/api/v2/ -OutputDirectory D:\home\site\tools python352x64 
+```
+
+7. We now move Python to its proper place:
+
+```DOS
+mv /d/home/site/tools/python352x64.3.5.2.6/content/python35/* /d/home/site/tools/
+```
