@@ -19,13 +19,12 @@ If you don't know anything about Azure Functions, [this](https://docs.microsoft.
 
 > Azure Functions is a serverless compute service that enables you to run code on-demand without having to explicitly provision or manage infrastructure. Use Azure Functions to run a script or piece of code in response to a variety of events. Learn how to use Azure Functions with our quickstarts, tutorials, and samples.
 
-Below I'll describe some tricks I've learned to use Azure Functions with Python, which is currently (May 2018) under "experimental" support. Azure Functions, being serverless, are inexpensive but still very useful. I have used Azure Functions to create APIs for my data science projects (e.g., trigger a retraining, evaluate a submission online) and to create a Twitter Bot that posts a few random pictures every day.
-
+Here are some tricks to use Azure Functions with Python, which is currently (May 2018) under "experimental" support. Azure Functions, being serverless, are inexpensive but still very useful. I have used Azure Functions to create APIs for my data science projects (e.g., trigger a retraining, evaluate a submission online) and to create a Twitter Bot that posts a few random pictures every day. The major limitation of Azure Functions is that the free version will only run for 10-15 minutes.
 
 
 #### Installing a more recent version of Python for your Azure Functions
 
-The Python version in Azure Functions is pretty old. As of this writing (May 2018), it's still on version 2.7. Let's install version 3.5.
+The default Python version in Azure Functions is pretty old. As of this writing (May 2018), it's still on version 2.7. You can install newer versions of Python using the procedure below. This procedure installs Python 3.5.
 
 1. Open the [Azure Portal](https://portal.azure.com)
 
@@ -121,5 +120,6 @@ If you know Python and have an Azure subscription, here's a few things that you 
 
 * Read new data from a database, run a model that creates a forecast and save it back to the database every 2 hours
 
+Serverless computing is extremely convenient: although there are limitations on what the free tier can do, they're not too restrictive.
 
 
