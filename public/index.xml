@@ -1,0 +1,527 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lucas A. Meyer - Blog on Lucas A. Meyer - Blog</title>
+    <link>/</link>
+    <description>Recent content in Lucas A. Meyer - Blog on Lucas A. Meyer - Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; Lucas A. Meyer 2016-present</copyright>
+    <lastBuildDate>Sun, 15 Oct 2017 00:00:00 -0700</lastBuildDate>
+    <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Centralized vs. Distributed Data Science Teams</title>
+      <link>/post/centralized-vs-distributed-data-teams/</link>
+      <pubDate>Mon, 25 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/centralized-vs-distributed-data-teams/</guid>
+      <description>
+
+&lt;p&gt;In a recent &lt;a href=&#34;https://www.datacamp.com/community/podcast/organizing-data-science-teams&#34; target=&#34;_blank&#34;&gt;DataFramed podcast&lt;/a&gt;, &lt;a href=&#34;https://github.com/hugobowne&#34; target=&#34;_blank&#34;&gt;Hugo Bowne-Anderson&lt;/a&gt; and
+&lt;a href=&#34;https://github.com/jnolis&#34; target=&#34;_blank&#34;&gt;Jonathan Nolis&lt;/a&gt; discuss whether data scientist teams should be centralized or distributed. I have my own opinions about that question.&lt;/p&gt;
+
+&lt;h2 id=&#34;should-data-science-teams-be-centralized-or-distributed&#34;&gt;Should data science teams be centralized or distributed?&lt;/h2&gt;
+
+&lt;p&gt;I was happy to find that Jonathan Nolis has the same opinion as I do: that a data science team works best when distributed into client areas. In addition, we agree that if you distribute your data science team among several different client areas, you have to find a way of keeping the data scientists feeling as if they&amp;rsquo;re part of a cohesive group. And that&amp;rsquo;s hard.&lt;/p&gt;
+
+&lt;p&gt;For me, a key part of the argument to distribute data scientists in client areas relies on Drew Conway&amp;rsquo;s (ancient) &lt;a href=&#34;http://drewconway.com/zia/2013/3/26/the-data-science-venn-diagram&#34; target=&#34;_blank&#34;&gt;Data Science Venn diagram&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://static1.squarespace.com/static/5150aec6e4b0e340ec52710a/t/51525c33e4b0b3e0d10f77ab/1364352052403/Data_Science_VD.png?format=750w&#34; alt=&#34;Data Science Venn Diagram&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Assigning data scientists to a client area will help build the &amp;ldquo;Substantive Expertise&amp;rdquo; part of the diagram. A common trap here is &amp;ldquo;Well, we can do the same if we keep the data scientists centralized and give them specializations that match the client areas.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;Although I think that &lt;em&gt;can&lt;/em&gt; work, I worry about what happens when data scientists have downtime.&lt;/p&gt;
+
+&lt;h3 id=&#34;incentives-for-client-areas-and-centralized-data-science-teams&#34;&gt;Incentives for client areas and centralized data science teams&lt;/h3&gt;
+
+&lt;p&gt;In my observations (low sample size), the client areas usually have a better sense of ROI&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:In-Finance-circl&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:In-Finance-circl&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; - if they invest resources on something, they expect returns. On the other hand, most centralized data science teams I&amp;rsquo;ve seen have two problems: data scientists hired without a clear purpose and an incentive to overengineering: a current example is to use Deep Learning where a regression would do.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://cdn-images-1.medium.com/max/2000/1*YfxWi5QZkShNHS0XLuKlMQ.png&#34; alt=&#34;Overengineering&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;It may be simply that client areas are more mature and battle worn than centralized data science groups, at least in my experience. I think that if a data scientist is assigned to a client area and there&amp;rsquo;s downtime, they&amp;rsquo;ll put the data scientist to work in business intelligence or decision analysis. On the other hand, if the data scientist is assigned to a centralized data science group, they&amp;rsquo;ll be pulled into a project away from their &amp;ldquo;client area specialization&amp;rdquo; or will find a way to work in something novel that&amp;rsquo;s cool (as of 2018, autoencoders, GANs or something with &amp;ldquo;Bayesian&amp;rdquo; in its name).&lt;/p&gt;
+
+&lt;p&gt;And here the ROI appears again: as the data scientist works through the BI project, they&amp;rsquo;ll learn more about the data and more about the business and its data, and that investment has a large likelihood of return in their next project in the same group. Whereas if they spend this time learning a new technique, the return is uncertain.&lt;/p&gt;
+
+&lt;h3 id=&#34;but-wait-if-you-do-that-data-scientists-will-never-learn-something-new&#34;&gt;But wait, if you do that, data scientists will never learn something new&lt;/h3&gt;
+
+&lt;p&gt;Here&amp;rsquo;s where the hard part of keeping a data scientist community pays off. That community may be weekly &amp;ldquo;Lunch &amp;amp; Learns&amp;rdquo; if the number of data scientists is small, or quarterly conferences if the number of data scientists is very big and your company is very, very rich.&lt;/p&gt;
+
+&lt;p&gt;If you don&amp;rsquo;t forcefully push towards having such a community, it&amp;rsquo;s very likely that data scientists will reinvent the wheel over and over again, and if their time is as precious as their high salary indicates, that will be a waste of money. For example, if you have 5 data scientists It&amp;rsquo;s better to spend $50k on travel to bring them together a few times a year than to have one of them wasting three months reinventing something that another of them already done.&lt;/p&gt;
+
+&lt;h3 id=&#34;where-i-disagree-with-jonathan-nolis&#34;&gt;Where I disagree with Jonathan Nolis&lt;/h3&gt;
+
+&lt;p&gt;In the podcast, Jonathan suggests that the data scientists should be assigned to client areas and report &amp;ldquo;solid line&amp;rdquo; to a Chief Data Scientist, while reporting &amp;ldquo;dotted line&amp;rdquo; to the client areas. I would do the opposite. However, listening to the podcast, it seems that Jonathan didn&amp;rsquo;t have a strong opinion that one is better than the other, and again in agreement, neither do I.&lt;/p&gt;
+
+&lt;p&gt;One big advantage of having a &amp;ldquo;solid line&amp;rdquo; group of data scientists is career advancement. It&amp;rsquo;s easier to compare data scientists with other data scientists. Leaving them in the client areas will require to compare them with other members of the client area, and they may be seen as wizards (and overvalued) or &amp;ldquo;too hard to understand&amp;rdquo;, and be undervalued.&lt;/p&gt;
+
+&lt;p&gt;One disadvantage is estimating the value of the data scientist to the client area. Data scientists that are more creative in their value calculations or less scrupulous are probably going to get ahead. I&amp;rsquo;ve lost count of the times that a data science project saved more revenue than the customer ever had.&lt;/p&gt;
+
+&lt;h3 id=&#34;so-what-do-i-do&#34;&gt;So, what do I do?&lt;/h3&gt;
+
+&lt;p&gt;Honestly, if you&amp;rsquo;re starting a data science team, your best bet is to hire someone like Jonathan or Drew Conway to plan the team for you. You&amp;rsquo;re going to spend a lot of money on Data Science, and it&amp;rsquo;s important to make sure that it will be well spent.&lt;/p&gt;
+
+&lt;p&gt;If you&amp;rsquo;re on a budget and all you can invest is the time to read some blog posts, well&amp;hellip; you probably don&amp;rsquo;t have enough money to hire data scientists. But if you do, I recommend assigning them to the client areas and keeping them there. Even when they&amp;rsquo;re not doing modeling or machine learning, they&amp;rsquo;re learning more about the business and its data.&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+
+&lt;hr /&gt;
+
+&lt;ol&gt;
+&lt;li id=&#34;fn:In-Finance-circl&#34;&gt;In Finance circles, we use NPV, but the idea is the same &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:In-Finance-circl&#34;&gt;&lt;sup&gt;^&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Frankfurt - Spring 2018</title>
+      <link>/post/frankfurt-spring-2018/</link>
+      <pubDate>Sat, 09 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/frankfurt-spring-2018/</guid>
+      <description>
+
+&lt;p&gt;I gave two short talks for the 10th Arvato Financial Services Telekommunikationsforum in Baden-Baden. The way ticket prices worked out, it was US$ 1000 cheaper to return on Sunday than it was to return on Saturday, so I was able to spend a full day in Frankfurt.&lt;/p&gt;
+
+&lt;p&gt;I hope to come back.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/frankfurt.jpeg&#34; alt=&#34;Frankfurt&#34; /&gt;
+&lt;img src=&#34;/img/frankfurt-euro.jpeg&#34; alt=&#34;Euro&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;a-great-base-for-european-adventures&#34;&gt;A great base for European adventures&lt;/h2&gt;
+
+&lt;p&gt;One of the things I liked the most about Frankfurt was how integrated the transportation system was. I landed at the Frankfurt airport, where I could stay at pretty good and reasonably priced hotels (Hilton, Hilton Garden Inn and Sheraton), had a supermarket and restaurants, and could take trains and planes to anywhere else in Europe.&lt;/p&gt;
+
+&lt;p&gt;I stayed at the Hilton, which had the unexpected advantage of having a lot of British and American channels available on the TV and the truly appreciated advantage of having a good air-conditioning system.&lt;/p&gt;
+
+&lt;h2 id=&#34;frankfurt-itself&#34;&gt;Frankfurt Itself&lt;/h2&gt;
+
+&lt;p&gt;Frankfurt itself was touristic enough for me: the city center has plenty of attractions. Several museums, a Zoo, &amp;ldquo;The Cathedral&amp;rdquo;, and all those great restaurants that you expect to exist in the center of a city in Europe. Saturday had street vendors all over downtown. I could have done a better job of planning what to do, but spending a day in the city center was plenty of fun, so I just took a train from the Airport to downtown and spent the day there enjoying the museums, the downtown and the restaurants.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Tricks using Python in Azure Functions</title>
+      <link>/post/installing-python-packages-in-azure-functions/</link>
+      <pubDate>Tue, 29 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/installing-python-packages-in-azure-functions/</guid>
+      <description>
+
+&lt;p&gt;If you don&amp;rsquo;t know anything about Azure Functions, &lt;a href=&#34;https://docs.microsoft.com/en-us/azure/azure-functions/&#34; target=&#34;_blank&#34;&gt;this&lt;/a&gt; is a good place to start.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Azure Functions is a serverless compute service that enables you to run code on-demand without having to explicitly provision or manage infrastructure. Use Azure Functions to run a script or piece of code in response to a variety of events. Learn how to use Azure Functions with our quickstarts, tutorials, and samples.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Here are some tricks to use Azure Functions with Python, which is currently (May 2018) under &amp;ldquo;experimental&amp;rdquo; support. Azure Functions, being serverless, are inexpensive but still very useful. I have used Azure Functions to create APIs for my data science projects (e.g., trigger a retraining, evaluate a submission online) and to create a Twitter Bot that posts a few random pictures every day. The major limitation of Azure Functions is that the free version will only run for 10-15 minutes.&lt;/p&gt;
+
+&lt;h4 id=&#34;installing-a-more-recent-version-of-python-for-your-azure-functions&#34;&gt;Installing a more recent version of Python for your Azure Functions&lt;/h4&gt;
+
+&lt;p&gt;The default Python version in Azure Functions is pretty old. As of this writing (May 2018), it&amp;rsquo;s still on version 2.7. You can install newer versions of Python using the procedure below. This procedure installs Python 3.5.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Open the &lt;a href=&#34;https://portal.azure.com&#34; target=&#34;_blank&#34;&gt;Azure Portal&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Select your function App (usually under App Services)&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Select &amp;ldquo;Platform Features&amp;rdquo; on top
+&lt;img src=&#34;/img/python-platform.png&#34; alt=&#34;Platform Features&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Select &amp;ldquo;Advanced Tools (Kudu)&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/python-kudu1.png&#34; alt=&#34;Select Kudu&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Select &amp;ldquo;CMD&amp;rdquo; on the &amp;ldquo;Debug Console&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/python-kudu.png&#34; alt=&#34;Debug Console -&amp;gt; CMD&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Now the fun part starts. Thanks to &lt;a href=&#34;https://ourwayoflyf.com/running-python-code-on-azure-functions-app/&#34; target=&#34;_blank&#34;&gt;Our Way of Lyf&lt;/a&gt; for providing instructions.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;We first download and install Python using Nuget. To see all possible versions, please check the following website: &lt;a href=&#34;https://www.siteextensions.net/profiles/steve.dower&#34; target=&#34;_blank&#34;&gt;https://www.siteextensions.net/profiles/steve.dower&lt;/a&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;nuget.exe install -Source https://www.siteextensions.net/api/v2/ -OutputDirectory D:\home\site\tools python352x64 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;For me, this step took approximately 4 minutes.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Successfully installed &amp;lsquo;python352x64 3.5.2.6&amp;rsquo; to D:\home\site\tools&lt;/p&gt;
+
+&lt;p&gt;Executing nuget actions took 3.99 min&lt;/p&gt;
+&lt;/blockquote&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;We now move Python to its proper place:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;mv /d/home/site/tools/python352x64.3.5.2.6/content/python35/* /d/home/site/tools/
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;From now on, whatever function we write using Python in this app will use the new version. To verify, let&amp;rsquo;s create a function using Python and check its version. Remember that in order to create Azure Functions using Python, we first have to enable &amp;ldquo;Experimental Language Support&amp;rdquo;). For this test, I&amp;rsquo;ll create a function with an HTTP trigger, which I&amp;rsquo;ll later change to a Timer trigger.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/python-new-function.png&#34; alt=&#34;create new function&#34; /&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;import os
+import platform
+
+message = &amp;quot;Using Python version {0}&amp;quot;.format(platform.python_version())
+print(message)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;2018-05-30T01:34:29.954 [Info] Function started (Id=c7edfee9-b370-4dfb-bf89-2912cd09a109)&lt;/p&gt;
+
+&lt;p&gt;2018-05-30T01:34:35.923 [Info] Using Python version 3.5.2&lt;/p&gt;
+
+&lt;p&gt;2018-05-30T01:34:35.955 [Info] Function completed (Success, Id=c7edfee9-b370-4dfb-bf89-2912cd09a109, Duration=6011ms)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&#34;installing-packages&#34;&gt;Installing packages&lt;/h4&gt;
+
+&lt;p&gt;Now that we have a recent version of Python, we can install whatever packages we want. For example, we can install pyodbc and python-twitter.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;D:\home\site\tools\python.exe -m pip install pyodbc
+D:\home\site\tools\python.exe -m pip install python-twitter
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;With these packages installed, for example, I can connect to a SQL (or SQL Azure) database and write a Python script that tweets parts of its content.&lt;/p&gt;
+
+&lt;h4 id=&#34;converting-an-http-trigger-to-a-time-trigger&#34;&gt;Converting an HTTP Trigger to a time trigger&lt;/h4&gt;
+
+&lt;p&gt;By default, Python functions don&amp;rsquo;t have a timer trigger. But that&amp;rsquo;s no big deal. Start with an HTTP trigger (see picture above), and then go to &amp;ldquo;Integrate&amp;rdquo; and delete the trigger.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/python-delete-trigger.png&#34; alt=&#34;Delete trigger&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Once you delete the trigger, you&amp;rsquo;ll be able to add a new trigger, which can be a Timer trigger.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/python-new-trigger.png&#34; alt=&#34;Timer trigger&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;You can configure the trigger using the usual &lt;code&gt;cron&lt;/code&gt; syntax:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/python-timer-trigger.png&#34; alt=&#34;Configuring timer trigger&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;In the example above, I&amp;rsquo;m triggering the function every 15 seconds. I did not change the code from before, so this will result simply in Python printing its version to the log every 15 seconds.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/python-timer-trigger-results.png&#34; alt=&#34;Configuring timer trigger&#34; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;a-few-ideas-on-how-to-use-this&#34;&gt;A few ideas on how to use this&lt;/h4&gt;
+
+&lt;p&gt;If you know Python and have an Azure subscription, here&amp;rsquo;s a few things that you do for free or nearly for free with this. You can:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;trigger a Python function that wakes up every day and performs some database maintentance (e.g., triggers a stored procedure that deletes old records)&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;send a message in Twitter every day, for example &amp;ldquo;Since yesterday, we&amp;rsquo;ve acquired X followers&amp;rdquo;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Read new data from a database, run a model that creates a forecast and save it back to the database every 2 hours&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Serverless computing is extremely convenient: although there are limitations on what the free tier can do, they&amp;rsquo;re not too restrictive.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A reflection on FY18 and FY19 plans</title>
+      <link>/post/a-reflection-on-fy18-and-fy19-plans/</link>
+      <pubDate>Mon, 28 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/a-reflection-on-fy18-and-fy19-plans/</guid>
+      <description>
+
+&lt;h1 id=&#34;reflecting-on-fy18-and-planning-for-fy19&#34;&gt;Reflecting on FY18 and planning for FY19&lt;/h1&gt;
+
+&lt;p&gt;I have worked at Microsoft for long enough that it&amp;rsquo;s easier for me to make plans in tandem with the Microsoft fiscal calendar. It runs from July to June, so we&amp;rsquo;re very close to the end of FY18 and starting FY19.&lt;/p&gt;
+
+&lt;h2 id=&#34;fy18-recap&#34;&gt;FY18 Recap&lt;/h2&gt;
+
+&lt;p&gt;Looking back, FY18 was a year of recovery, as was FY17. We&amp;rsquo;ve had our share of health-related scares at my home, and we&amp;rsquo;re still working through some of those. However, on the positive side, it finally feels like I have some time to think (and have hope) about the future.&lt;/p&gt;
+
+&lt;p&gt;I also got a promotion right at the start of FY18, mostly because of my chatbot.&lt;/p&gt;
+
+&lt;h3 id=&#34;chatbots&#34;&gt;Chatbots&lt;/h3&gt;
+
+&lt;p&gt;In July 2018, the very beginning of FY18, a chatbot I wrote in FY17 won the &lt;a href=&#34;http://treasurytoday.com/adamsmith/2017/winners/jc-winner-microsoft&#34; target=&#34;_blank&#34;&gt;Adam Smith Judge&amp;rsquo;s Choice Award&lt;/a&gt;. That&amp;rsquo;s not me in the picture, by the way If I were to advertise this chatbot, I&amp;rsquo;d say its main feature is how fast it was created. It was written in about a week. Its main business feature is that it saves time by putting together information that took a few queries (and more than a few minutes) to combine. Although the chatbot could be replaced by a well-done report, it&amp;rsquo;s easier to train user to use a chatbot (the chatbot itself helps) than to use a report. This chatbot later became a platform for additional use cases.&lt;/p&gt;
+
+&lt;p&gt;This chatbot was the inspiration, and in some cases, the initial source code, for several other chatbots, including another one that won the Adam Smith award in 2018. One of the coolest features of this new chatbot is that it will ask the old chatbot when it doesn&amp;rsquo;t know the answer to a question.&lt;/p&gt;
+
+&lt;h3 id=&#34;forecasting&#34;&gt;Forecasting&lt;/h3&gt;
+
+&lt;p&gt;In another short project, I&amp;rsquo;ve created a time series forecasting platform that is used by several groups. Although it does not use super-recent time series forecasting algorithms and has quite a few restrictions on the data it can handle, it is general enough to solve a wide range of problems that we commonly face, so it was adopted by several groups.&lt;/p&gt;
+
+&lt;h3 id=&#34;data&#34;&gt;Data&lt;/h3&gt;
+
+&lt;p&gt;In large companies, data can always be combined in smarter and more useful ways. In FY18 we combined such data for two large opportunities: one to help streamline sales, and another one for data mastering. Both were widely adopted.&lt;/p&gt;
+
+&lt;h3 id=&#34;ai-school-advanced-projects&#34;&gt;AI School Advanced Projects&lt;/h3&gt;
+
+&lt;p&gt;In April of 2018, one of my project proposals was accepted to the AI-611 Advanced Projects course, an internal course that selects top engineers and teaches them advanced concepts in machine learning, mostly related to deep learning. The project was completed in less than two months and was recently put in production.&lt;/p&gt;
+
+&lt;h3 id=&#34;conferences&#34;&gt;Conferences&lt;/h3&gt;
+
+&lt;p&gt;With all the healthcare uncertainty, I had been out of conferences for a while. The last one I had presented was an internal conference in FY16. It&amp;rsquo;s time for a change, so I&amp;rsquo;m presenting in Baden-Baden in June 2018.&lt;/p&gt;
+
+&lt;p&gt;On the positive side, I&amp;rsquo;ve attended the &lt;a href=&#34;https://datascience.salon/miami11-18/&#34; target=&#34;_blank&#34;&gt;Data Science Salon&lt;/a&gt; in Miami, and it was way better than I expected it to be.&lt;/p&gt;
+
+&lt;h2 id=&#34;fy19-plans&#34;&gt;FY19 Plans&lt;/h2&gt;
+
+&lt;h3 id=&#34;data-science-officially&#34;&gt;Data Science, officially&lt;/h3&gt;
+
+&lt;p&gt;For many years, I&amp;rsquo;ve been (perhaos incorrectly) proud of not being in the Data Science track at Microsoft. I was able to keep my career as &amp;ldquo;Finance&amp;rdquo;. Apparently this will change in FY19, and perhaps it&amp;rsquo;s for the better. One consequence is that I&amp;rsquo;ll be expected to publish some articles and present more in conferences.&lt;/p&gt;
+
+&lt;h3 id=&#34;move&#34;&gt;Move?&lt;/h3&gt;
+
+&lt;p&gt;There are advantages and disadvantages of being in a place that is a work in progress for Data Science, like Florida currently is. One of the advantages is that I can help shape how Data Science in Florida will be, and I can know many of the people in Florida that do Data Science. One disadvantage is that there&amp;rsquo;s not that many people to talk to. Florida is also very spread out, so it&amp;rsquo;s not uncommon that when something happens, it will be 90 minutes away and of uncertain quality.&lt;/p&gt;
+
+&lt;p&gt;Another disadvantage of Florida is that where we live (Broward County) doesn&amp;rsquo;t seem to be an ideal place for K-12, and we are worried about the effect on the kids.&lt;/p&gt;
+
+&lt;p&gt;Perhaps there&amp;rsquo;s a place with better K-12 and more Data Science in our future. Seattle would make sense, given it&amp;rsquo;s where Microsoft is, but it&amp;rsquo;s expensive enough to give us pause.&lt;/p&gt;
+
+&lt;h3 id=&#34;call-for-papers&#34;&gt;Call for Papers&lt;/h3&gt;
+
+&lt;p&gt;As part of my likely move to a Data Science career profile, I&amp;rsquo;ll need to write papers and submit talks to conferences. Today I&amp;rsquo;ve created my &lt;a href=&#34;http://easychair.org&#34; target=&#34;_blank&#34;&gt;EasyChair&lt;/a&gt; account, but I was not fast enough to realize that most of 2018 is already gone. I&amp;rsquo;m likely going to need to create several proposals so I can have some acceptances in early 2019.&lt;/p&gt;
+
+&lt;p&gt;So far the ideas are:
+    * The (super-cheap) Twitter Art Bot
+    * Chatbots that talk to each other
+    * Something about our deep learning project fro AI-611
+    * Something about time-series forecasting&lt;/p&gt;
+
+&lt;h3 id=&#34;finally-a-few-challenges-for-fy19&#34;&gt;Finally, a few challenges for FY19&lt;/h3&gt;
+
+&lt;p&gt;Creativity is like breathing. You got to breath out, and you got to breath in. It may be time to breath out again, This coming fiscal year, I hope to have:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;24 blog posts, that is, at least two per month&lt;/li&gt;
+&lt;li&gt;4 presentations in local meetups&lt;/li&gt;
+&lt;li&gt;2 external conference presentations&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Lenovo P51 - the Data Scientist&#39;s laptop</title>
+      <link>/post/lenovo-p51-the-data-scientist-laptop/</link>
+      <pubDate>Fri, 17 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/post/lenovo-p51-the-data-scientist-laptop/</guid>
+      <description>&lt;p&gt;Recently, as part of a computer refresh, I have moved from a Microsoft Surface Pro 3 to a Lenovo P51.
+The Microsoft Surface Pro 3 was the right computer for me at the time I
+got it, but as time went by my position changed substantially, and it ceased to be appropriate for me.&lt;/p&gt;
+
+&lt;p&gt;When I got the Surface, the core of my work consisted in traveling, having conference calls and
+light emailing and spreadsheet work. As time went by, my work went back to creating analytics,
+creating presentations about analytics, and traveling. There is where the screen of the Surface
+becomes a liability at 12 inches. I wanted something bigger.&lt;/p&gt;
+
+&lt;p&gt;And boy, is the P51 bigger. It has a 15-inch screen and a power brick that alone is twice as heavy
+as the Surface Pro. It&amp;rsquo;s big enough to have a keyboard that comes with a numeric keypad. Since I still
+have to travel a lot, I chose the P51 over the beefier 17-inch P71. The P71 won&amp;rsquo;t even fit in my
+somewhat large Osprey backpack. The P51 barely fits.&lt;/p&gt;
+
+&lt;p&gt;Due to some standardization constraints, my P51 is the 1920x1080 version with touch screen. It has
+32 Gb of RAM and a 500 Gb SSD. It has the i7 7820HQ running at 2.9 GHz and a Quadro M2200 GPU. If I
+had the option, I&amp;rsquo;d choose the 4K screen and the Xeon processor, but I did not have that option.&lt;/p&gt;
+
+&lt;p&gt;The battery life is surprisingly good. For the kind of things that I do in planes (writing blog posts,
+editing presentations, light programming), the battery seems to last well over 8h without Wi-Fi and about 7h
+with Wi-Fi. I have yet to run out of battery in a flight. I have read that the earlier version
+of the P51, the P50, would trip the circuit breaker of a plane if you tried to plug it in. I have not
+attempted to plug in the P51 yet.&lt;/p&gt;
+
+&lt;p&gt;The P51 is usable in the Premium Economy seats and, of course, in business and first class seats,
+but I have the impression that it would not fit well in the economy class of carriers that have
+a very small distance between seats (like American Airlines domestic flights), especially if the
+person in front of you reclines their seat. It works well in exit seats.&lt;/p&gt;
+
+&lt;p&gt;One gripe I had about the Surface Pro 3 was that I always had to travel with a USB hub, a mouse, and
+a couple mini-DisplayPort adapters. The P51 comes with a mechanical keyboard, the beloved TrackPoint,
+a good TouchPad, 4 USB ports, a Thunderbolt 3 port, an Ethernet port, an HDMI port, and, to my surprise,
+a mini-DisplayPort, so I get to keep all the adapters I had for the Surface.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;ve also considered the P51-S. The slimmer version trades off some power (it goes from quad-core to
+dual-core) for a thinner, lighter frame. I think the P51-S would also have been a solid choice, but I
+think it would force me to do most of my work from a workstation and/or a server that I&amp;rsquo;d need to
+remote into frequently, adding to the stress of versioning and synchronizing. Somewhat
+counter-intuitively, I chose the heavier computer &lt;em&gt;because&lt;/em&gt; I travel a lot, as it has enough power
+for me to do the vast majority of my work on it and use a server or workstation just for the real
+hardcore stuff.&lt;/p&gt;
+
+&lt;p&gt;In summary, the Lenovo P51 is a great computer for the traveling data scientist. It&amp;rsquo;s powerful enough
+to be used as your primary machine. For me, it&amp;rsquo;s near the top limit of a computer that is comfortable
+to travel with, but still &lt;em&gt;within&lt;/em&gt; that limit. I got used to it in no time and completely gave up my
+desktop workstation.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The three types of gifts in Buddhism</title>
+      <link>/post/the-three-types-of-gifts-in-buddhism/</link>
+      <pubDate>Mon, 25 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/post/the-three-types-of-gifts-in-buddhism/</guid>
+      <description>&lt;p&gt;From &amp;ldquo;For a future to be possible&amp;rdquo;, by Thich Nhat Hanh:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;In Buddhism, there are three kinds of gifts. The first is the gift of material resources. The second is to help people rely on themselves, to offer them the technology and know-how to stand on their own feet. (&amp;hellip;)&lt;/p&gt;
+
+&lt;p&gt;The third is the gift of non-fear. We are afraid of many things. We feel insecure, afraid of being alone, afraid of sickness and dying. To help people not be destroyed by their fears, we practice the third kind of gift-giving.&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Hurricane Irma</title>
+      <link>/post/hurricane-irma/</link>
+      <pubDate>Mon, 11 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/post/hurricane-irma/</guid>
+      <description>&lt;p&gt;Florida has nice weather most of the time, but also has extreme weather occasionally.&lt;/p&gt;
+
+&lt;p&gt;Hurricane Irma happened when I was out on a business trip, and my family was in Parkland, FL.
+Forecasts went from &amp;ldquo;maybe it will hit you&amp;rdquo; to &amp;ldquo;if you stay you&amp;rsquo;ll surely die&amp;rdquo;
+to &amp;ldquo;I think it&amp;rsquo;s not going to hit you anymore&amp;rdquo; to &amp;ldquo;Phew, it will miss&amp;rdquo; in four days.&lt;/p&gt;
+
+&lt;p&gt;We did a lot of preparation using conditional probabilities. In our assessment,
+it would be very unlikely for the hurricane to hit both the East and West coast
+simultaneously. So we decided to move the family from Parkland, FL to Tampa
+(back then, the hurricane was forecasted to hit the East coast), but to book hotels
+in both Pensacola (Florida panhandle) and Jacksonville, FL while we waited for new
+forecasts.&lt;/p&gt;
+
+&lt;p&gt;As days went by, the forecasts moved further and further West. On Saturday 2 AM, the
+forecast was that the hurricane would hit Tampa as a Category 4, so staying there was
+too risky. And then we had to decide between moving to the Florida panhandle, moving to Jacksonville
+and incredibly, going back to Parkland, near Fort Lauderdale.&lt;/p&gt;
+
+&lt;p&gt;The uncertainty seemed higher for places that were north of Tampa: it was hard to tell
+whether the hurricane would turn either way in 3 days. On the other hand, the forecasts are better
+in close proximity to the hurricane, and it seemed pretty certain that the hurricane would miss
+the Parkland/Boca Raton area. So we made the somewhat gutsy call that my wife would come back
+to Parkland with the kids.&lt;/p&gt;
+
+&lt;p&gt;There&amp;rsquo;s surely an element of luck to all of this, but the outcome was positive. We had very
+minor damage in our house: a couple plants and a downspout. I think the total amount of
+damage is going to be less than $100. It&amp;rsquo;s hard to be precise because there may be damage
+that is hard to see, like on the roof. We did not lose power, internet or even satellite TV.
+The hardest part was the stress.&lt;/p&gt;
+
+&lt;p&gt;On Monday morning the winds were back to normal. There&amp;rsquo;s still a lot of debris around the county.
+I&amp;rsquo;m supposed to fly back home tomorrow, if the airport opens, and hopefully I&amp;rsquo;ll be
+able to get a ride home. This was more of a suspense than a horror movie. Many people were
+not as lucky as we were and we&amp;rsquo;ll now see how we can help them.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Example Talk</title>
+      <link>/talk/example-talk/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 -0800</pubDate>
+      
+      <guid>/talk/example-talk/</guid>
+      <description>&lt;p&gt;Embed your slides or video here using &lt;a href=&#34;https://sourcethemes.com/academic/post/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;shortcodes&lt;/a&gt;. Further details can easily be added using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Deep Learning</title>
+      <link>/project/deep-learning/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/project/deep-learning/</guid>
+      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
+
+&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
+
+&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
+
+&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
+
+&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>External Project</title>
+      <link>/project/example-external-project/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/project/example-external-project/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>My complicated relationship with the second amendment</title>
+      <link>/post/my-complicated-relationship-with-the-second-amendment/</link>
+      <pubDate>Tue, 23 Feb 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/post/my-complicated-relationship-with-the-second-amendment/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;I&amp;rsquo;m writing this on 2018-02-26, after thinking a lot about guns after the &lt;a href=&#34;https://en.wikipedia.org/wiki/Stoneman_Douglas_High_School_shooting&#34; target=&#34;_blank&#34;&gt;Parkland School Shooting&lt;/a&gt;,
+but I&amp;rsquo;m burying this article in the past because there&amp;rsquo;s a lot of passion around this topic.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I live in Parkland, FL, and I have three kids. When the Parkland School Shooting happened, my kids were in elementary school, and out of danger. Many of our friends and
+their kids were not so lucky as we were. I used to take for granted that my kids would come back from school every day, unharmed. Now I don&amp;rsquo;t.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;m also a registered Republican, but I&amp;rsquo;m not a conservative by any means. My ideas align strongly with the Libertarian movement. Many libertarian ideas align with
+the Republican party, but not all: for example, libertarians abhor the swelling of the military and police that happens during Republican terms.
+On the other hands, libertarians are fierce defenders of individual rights, including the right to bear arms.
+Although I lean strong libertarian, I don&amp;rsquo;t like guns.&lt;/p&gt;
+
+&lt;p&gt;This does not mean that I wouldn&amp;rsquo;t have a gun or that I wouldn&amp;rsquo;t shoot someone that was a threat to my life or the life of a family member.
+If the best option was using lethal force, I&amp;rsquo;m fairly sure I would use it. I just wouldn&amp;rsquo;t like it.
+On the other hand, I think society would be much simpler if guns were rare and less lethal.&lt;/p&gt;
+
+&lt;p&gt;Even though I don&amp;rsquo;t like guns, as long as the Second Amendment is in the Constitution, I will support it. I would also support repealing it. A representative
+that has a platform of repealing the Second Amendment has my attention and likely my vote. A representative that wants to &lt;em&gt;limit&lt;/em&gt; the Second Amendment, on the other hand,
+doesn&amp;rsquo;t.&lt;/p&gt;
+
+&lt;p&gt;This is probably hard to understand. People are usually &amp;ldquo;pro-gun&amp;rdquo; or &amp;ldquo;anti-gun&amp;rdquo;, and that&amp;rsquo;s it. Anything that scores points for your team is good. But
+the &lt;a href=&#34;http://www.billofrightsinstitute.org/founding-documents/bill-of-rights/&#34; target=&#34;_blank&#34;&gt;Bill of Rights&lt;/a&gt; are not just for one team. They are the rules of the game.
+I don&amp;rsquo;t like restricting the Second Amendment in a similar way that I wouldn&amp;rsquo;t like having some type of penalty being called only against my team. Heck,
+even if it was the other team.&lt;/p&gt;
+
+&lt;p&gt;Rights should be extremely hard to restrict. I think we lost that battle with the Fourth Amendment. Instead of going through the painful motions of
+repealing a right, reaction to some event erodes the right little by little, until the right is a shell of what it was. Although I don&amp;rsquo;t like guns
+and shouldn&amp;rsquo;t mind that erosion happening with the Second Amendment, I do. Because I care about our rights. I don&amp;rsquo;t think we would have such a great
+country without the rights we do, and I also don&amp;rsquo;t think the country can continue to be great if rights can easily be restricted.&lt;/p&gt;
+
+&lt;p&gt;You may think &amp;ldquo;but high-powered weapons are &lt;em&gt;evil&lt;/em&gt;&amp;rdquo;, and it may feel like that to many, including me. But if you start transferring that logic to
+other rights, then it may not make as much sense. The government may get the power to ban high-powered weapons. It may get the power to ban high-powered
+speech. It may get the power to ban jury trials on &amp;ldquo;high-powered crimes&amp;rdquo;. The poor Fourth Amendment is
+&lt;a href=&#34;https://www.duicentral.com/dui/the-dui-exception/&#34; target=&#34;_blank&#34;&gt;full of holes&lt;/a&gt; already.&lt;/p&gt;
+
+&lt;p&gt;This may sound like a &amp;lsquo;slippery slope&amp;rsquo; argument. It&amp;rsquo;s not. I&amp;rsquo;m not arguing that &lt;em&gt;because&lt;/em&gt; we restrict one right we may get better at restrict others. I&amp;rsquo;m arguing that
+the bar to restrict any right should be ludicrously high, even if I don&amp;rsquo;t like them. And it has not been consistently high.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://twitter.com/marcorubio&#34; target=&#34;_blank&#34;&gt;Marco Rubio&lt;/a&gt;, the future former Florida Senator, bless his heart, posted
+&lt;a href=&#34;https://www.nytimes.com/2015/10/04/opinion/sunday/nicholas-kristof-a-new-way-to-tackle-gun-deaths.html?smprod=nytcore-ipad&amp;amp;smid=nytcore-ipad-share&#34; target=&#34;_blank&#34;&gt;this article&lt;/a&gt;
+from the New York Times on Twitter. The article is full of good ideas, but idiotic: comparing driving with the Second Amendment is disingenuous.
+The Second Amendment is a right, driving isn&amp;rsquo;t.&lt;/p&gt;
+
+&lt;p&gt;I am for repealing the Second Amendment, but not restricting it.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A Person Re-Identification System For Mobile Devices</title>
+      <link>/publication/person-re-identification/</link>
+      <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/person-re-identification/</guid>
+      <description>&lt;p&gt;More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Mobile visual clothing search</title>
+      <link>/publication/clothing-search/</link>
+      <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/clothing-search/</guid>
+      <description>&lt;p&gt;More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
