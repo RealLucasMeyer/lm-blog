@@ -30,7 +30,7 @@ Part of the problem is that the "Data Scientist" title is itself poorly defined,
 
 * Tableau/Power BI Report Designer
 * Machine Learning Researcher
-* Python Programmer who knows how to call scikit-learn Functions
+* Python Programmer who knows how to call scikit-learn functions
 
 Using the same name for vastly different abilities makes matching between employers and employees difficult. In addition, it may make career progression difficult. For example, job responsibilities and objectives are likely to be related to a company's interpretation of the title of "Data Scientist". Employees in that company may be "Data Scientists" under other interpretations, and may be really good, but may have their performance evaluated under different guidelines: _"I know your ML model saved $1B for our company, but the color scheme of your Tableau reports is horrible!"_ As per the (not really) Albert Einstein's quote "(...) if you judge a fish by its ability to climb a tree, it will live its whole life believing that it is stupid."
 
