@@ -48,7 +48,7 @@ The most useful part of Conway's diagram for me is that I've time and again obse
 
 ## But Conway's Venn is missing something!!!
 
-True to the famous Box aphorism that "all models are wrong but some are useful", Conway's Venn is not perfect. In my experience, one of the things that I usually miss is "intensity". Someone that knows how to write a "Hello World!", knows how to take averages, and know how to calculate compound interest has knowledge in all three areas of the Venn diagram, but is probably not the ideal person to lead a data science project in Finance. Conway's is best used to tell you what's missing for career development, for a team, for a project, but it will not solve of the problems.
+True to the famous Box aphorism that "all models are wrong but some are useful", Conway's Venn is not perfect. In my experience, one of the things that I usually miss is "intensity". Someone that knows how to write a "Hello World!", knows how to take averages, and know how to calculate compound interest has knowledge in all three areas of the Venn diagram, but is probably not the ideal person to lead a data science project in Finance. Conway's is best used to tell you what's missing for career development, for a team, for a project, but it will not solve all problems.
 
 It will, however, solve many problems that matter, and will provide useful information very elegantly. You can't ask much more from a model.
 
