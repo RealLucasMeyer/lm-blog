@@ -22,10 +22,9 @@ header:
 I live in Parkland, FL, and I have three kids. When the Parkland School Shooting happened, my kids were in elementary school, and out of danger. Many of our friends and 
 their kids were not so lucky as we were. I used to take for granted that my kids would come back from school every day, unharmed. Now I don't.
 
-I'm also a registered Republican, but I'm not a conservative by any means. My ideas align strongly with the Libertarian movement. Many libertarian ideas align with 
+I was also once a registered Republican, but I'm not a conservative by any means. My ideas align strongly with the Libertarian movement. Many libertarian ideas align with 
 the Republican party, but not all: for example, libertarians abhor the swelling of the military and police that happens during Republican terms. 
-On the other hands, libertarians are fierce defenders of individual rights, including the right to bear arms. 
-Although I lean strong libertarian, I don't like guns. 
+On the other hands, libertarians are fierce defenders of individual rights, including the right to bear arms. Although I lean strong libertarian, I don't like guns. 
 
 This does not mean that I wouldn't have a gun or that I wouldn't shoot someone that was a threat to my life or the life of a family member. 
 If the best option was using lethal force, I'm fairly sure I would use it. I just wouldn't like it. 
@@ -37,8 +36,8 @@ doesn't.
 
 This is probably hard to understand. People are usually "pro-gun" or "anti-gun", and that's it. Anything that scores points for your team is good. But 
 the [Bill of Rights](http://www.billofrightsinstitute.org/founding-documents/bill-of-rights/) are not just for one team. They are the rules of the game.
-I don't like restricting the Second Amendment in a similar way that I wouldn't like having some type of penalty being called only against my team. Heck, 
-even if it was the other team.
+I don't like restricting the Second Amendment in a similar way that I wouldn't like having some type of penalty being called *only* against my team. Heck, 
+I wouldn't like even if a type of penalty was only being called against the _opposing_ team.
 
 Rights should be extremely hard to restrict. I think we lost that battle with the Fourth Amendment. Instead of going through the painful motions of 
 repealing a right, reaction to some event erodes the right little by little, until the right is a shell of what it was. Although I don't like guns
