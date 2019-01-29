@@ -3,5 +3,5 @@
 .RData
 .Ruserdata
 public/
-packrat/src/
 packrat/lib*/
+packrat/src/
